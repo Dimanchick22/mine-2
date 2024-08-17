@@ -1,0 +1,67 @@
+[
+  {
+    "user": {
+      "type": "player",
+      "name": "Kaucert",
+      "uniqueId": "f93dd106-22b2-4cf8-bbd9-782434642f16"
+    },
+    "time": 1722070909932,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/msht2DcBt8"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Kaucert",
+      "uniqueId": "f93dd106-22b2-4cf8-bbd9-782434642f16"
+    },
+    "time": 1722068121322,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/nqB6Tthe1I"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Kaucert",
+      "uniqueId": "f93dd106-22b2-4cf8-bbd9-782434642f16"
+    },
+    "time": 1722063084440,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/A9sr2ngh2r"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Kaucert",
+      "uniqueId": "f93dd106-22b2-4cf8-bbd9-782434642f16"
+    },
+    "time": 1718791047805,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/RAHDjHJNxH"
+    }
+  },
+  {
+    "user": {
+      "type": "player",
+      "name": "Kaucert",
+      "uniqueId": "f93dd106-22b2-4cf8-bbd9-782434642f16"
+    },
+    "time": 1718790577798,
+    "type": "Profiler (live)",
+    "data": {
+      "type": "url",
+      "value": "https://spark.lucko.me/AZwbkjItAo"
+    }
+  }
+]

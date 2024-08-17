@@ -1,0 +1,118 @@
+[03:14:19] [INIT] KubeJS 1902.6.2-build.73; MC 1902 forge
+[03:14:19] [INIT] Loaded plugins:
+[03:14:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[03:14:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[03:14:19] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[03:14:19] [INIT] - fr.iglee42.createcasing.compat.kubejs.KubeJSCompatPlugin
+[03:14:19] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[03:14:19] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[03:14:19] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[03:14:19] [INIT] - dev.ftb.mods.ftbic.kubejs.FTBICKubeJSPlugin
+[03:14:19] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[03:14:19] [INIT] - com.almostreliable.morejs.Plugin
+[03:14:19] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[03:14:19] [INIT] - com.probejs.ProbeJSPlugin
+[03:14:19] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[03:14:19] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
+[03:14:19] [INIT] - com.prunoideae.KubeJSBotaniaPlugin
+[03:14:19] [INIT] - com.github.klikli_dev.occultism_kubejs.KubeJSOccultismPlugin
+[03:14:20] [INFO] Loaded script client_scripts:end_game_tooltips/tooltips_add.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:game_time_script/render_dark_style.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:game_time_script/render_dark_style_70tp.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:game_time_script/render_jade_style.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:rei/add.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:rei/hide.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 3/animal_spawner.js in 0.002 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 3/nature_altar.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 3/nature_ritual.js in 0.002 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 3/offering_table.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 3/potion_generator.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 3/rf_converter.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 6/ponder/OFF-DELETE-andesite_alloy_farm.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 6/ponder/reactor.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 6/ponder/roots_ritual.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 6/ponder/simple_lava_farm.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 6/ponder/wood_farm.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/lang.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/concrate_farm.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/endoflame.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/flame_flower_ore.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/flower_ore.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/forbidden_arcanushephaestus_forge.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/gaia_ritual.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/gen_pressor.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/gourmaryllis.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/ignem_orechid.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/iron_farm.js in 0.003 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/mana_tnt_farm.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/occultism.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/OFF-DELETE-flint_grinder.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/OFF-DELETE-Precision_Mechanism_Crafter.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/OFF-REWORK-fission_r.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/OFF-REWORK-fusion_r.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/orechid.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/ore_processing.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/sot_farm.js in 0.001 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/spirit_mob_farm.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/steam_power_generator.js in 0.002 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/ponder/vodogortenzia.js in 0.002 s
+[03:14:20] [INFO] Loaded script client_scripts:stage 7/tooltips/tooltips_add.js in 0.0 s
+[03:14:20] [INFO] Loaded script client_scripts:tag_ponder.js in 0.001 s
+[03:14:20] [INFO] Loaded 42/42 KubeJS client scripts in 0.059 s
+[03:14:44] [ERROR] ! Error occurred while handling event 'Ponder.registry': java.lang.IllegalArgumentException: Provided items must not be empty!
+[03:14:44] [ERROR] ! java.lang.IllegalArgumentException: Provided items must not be empty!
+[03:14:44] [ERROR] ! 	at TRANSFORMER/ponderjs@1.2.0/com.almostreliable.ponderjs.PonderRegistryEventJS.create(PonderRegistryEventJS.java:21)
+[03:14:44] [ERROR] ! 	at jdk.internal.reflect.GeneratedMethodAccessor65.invoke(Unknown Source)
+[03:14:44] [ERROR] ! 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:14:44] [ERROR] ! 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.MemberBox.invoke(MemberBox.java:160)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.NativeJavaMethod.call(NativeJavaMethod.java:463)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.Interpreter.interpretLoop(Interpreter.java:987)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.Interpreter.interpret(Interpreter.java:370)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:72)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.Context.callSync(Context.java:1308)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.Context.doTopCall(Context.java:1325)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.InterpretedFunction.call(InterpretedFunction.java:70)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.Context.callSync(Context.java:1308)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.ArrowFunction.call(ArrowFunction.java:42)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.Context.callSync(Context.java:1308)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.InterfaceAdapter.invoke(InterfaceAdapter.java:125)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/rhino@1902.2.3-build.284/dev.latvian.mods.rhino.VMBridge.lambda$newInterfaceProxy$0(VMBridge.java:74)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/jdk.proxy3/jdk.proxy3.$Proxy114.onEvent(Unknown Source)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/kubejs@1902.6.2-build.73/dev.latvian.mods.kubejs.event.EventHandlerContainer.handle(EventHandlerContainer.java:39)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/kubejs@1902.6.2-build.73/dev.latvian.mods.kubejs.event.EventHandler.postToHandlers(EventHandler.java:301)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/kubejs@1902.6.2-build.73/dev.latvian.mods.kubejs.event.EventHandler.post(EventHandler.java:271)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/kubejs@1902.6.2-build.73/dev.latvian.mods.kubejs.event.EventHandler.post(EventHandler.java:225)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/kubejs@1902.6.2-build.73/dev.latvian.mods.kubejs.event.EventHandler.post(EventHandler.java:178)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/ponderjs@1.2.0/com.almostreliable.ponderjs.PonderJS.init(PonderJS.java:104)
+[03:14:44] [ERROR] ! 	at java.base/java.util.concurrent.CompletableFuture$AsyncRun.run(CompletableFuture.java:1804)
+[03:14:44] [ERROR] ! 	at LAYER PLUGIN/fmlcore@1.19.2-43.4.0/net.minecraftforge.fml.DeferredWorkQueue.lambda$makeRunnable$1(DeferredWorkQueue.java:67)
+[03:14:44] [ERROR] ! 	at LAYER PLUGIN/fmlcore@1.19.2-43.4.0/net.minecraftforge.fml.DeferredWorkQueue.makeRunnable(DeferredWorkQueue.java:63)
+[03:14:44] [ERROR] ! 	at LAYER PLUGIN/fmlcore@1.19.2-43.4.0/net.minecraftforge.fml.DeferredWorkQueue.lambda$runTasks$0(DeferredWorkQueue.java:57)
+[03:14:44] [ERROR] ! 	at java.base/java.util.concurrent.ConcurrentLinkedDeque.forEach(ConcurrentLinkedDeque.java:1650)
+[03:14:44] [ERROR] ! 	at LAYER PLUGIN/fmlcore@1.19.2-43.4.0/net.minecraftforge.fml.DeferredWorkQueue.runTasks(DeferredWorkQueue.java:57)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/forge@43.4.0/net.minecraftforge.fml.core.ParallelTransition.lambda$finalActivityGenerator$2(ParallelTransition.java:35)
+[03:14:44] [ERROR] ! 	at java.base/java.util.concurrent.CompletableFuture$UniApply.tryFire(CompletableFuture.java:646)
+[03:14:44] [ERROR] ! 	at java.base/java.util.concurrent.CompletableFuture$Completion.run(CompletableFuture.java:482)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.server.packs.resources.SimpleReloadInstance.m_143940_(SimpleReloadInstance.java:69)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_6367_(BlockableEventLoop.java:157)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.ReentrantBlockableEventLoop.m_6367_(ReentrantBlockableEventLoop.java:23)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_7245_(BlockableEventLoop.java:131)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.util.thread.BlockableEventLoop.m_18699_(BlockableEventLoop.java:116)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.Minecraft.m_91383_(Minecraft.java:1072)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.Minecraft.m_91374_(Minecraft.java:700)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.main.Main.m_239872_(Main.java:212)
+[03:14:44] [ERROR] ! 	at TRANSFORMER/minecraft@1.19.2/net.minecraft.client.main.Main.main(Main.java:51)
+[03:14:44] [ERROR] ! 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+[03:14:44] [ERROR] ! 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+[03:14:44] [ERROR] ! 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+[03:14:44] [ERROR] ! 	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+[03:14:44] [ERROR] ! 	at MC-BOOTSTRAP/fmlloader@1.19.2-43.4.0/net.minecraftforge.fml.loading.targets.CommonClientLaunchHandler.lambda$launchService$0(CommonClientLaunchHandler.java:27)
+[03:14:44] [ERROR] ! 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandlerDecorator.launch(LaunchServiceHandlerDecorator.java:30)
+[03:14:44] [ERROR] ! 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:53)
+[03:14:44] [ERROR] ! 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.LaunchServiceHandler.launch(LaunchServiceHandler.java:71)
+[03:14:44] [ERROR] ! 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.run(Launcher.java:106)
+[03:14:44] [ERROR] ! 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.Launcher.main(Launcher.java:77)
+[03:14:44] [ERROR] ! 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:26)
+[03:14:44] [ERROR] ! 	at MC-BOOTSTRAP/cpw.mods.modlauncher@10.0.8/cpw.mods.modlauncher.BootstrapLaunchConsumer.accept(BootstrapLaunchConsumer.java:23)
+[03:14:44] [ERROR] ! 	at cpw.mods.bootstraplauncher@1.1.2/cpw.mods.bootstraplauncher.BootstrapLauncher.main(BootstrapLauncher.java:141)

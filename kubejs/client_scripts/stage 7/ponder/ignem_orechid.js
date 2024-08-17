@@ -1,0 +1,91 @@
+Ponder.registry(e => {
+    e
+    .create([
+        'botania:orechid_ignem',
+        'botania:floating_orechid_ignem'
+    ])
+    .scene('gribtweaks:orechid_ignem', 'Ферма руды: Огненный рудноцвет', 'ignem_orechid', (scene, util) => {
+        scene.scaleSceneView(.8);
+        scene.setSceneOffsetY(-1);
+        scene.showBasePlate()
+        scene.idle(20)
+        scene.overlay.showText(60)
+			.colored(PonderPalette.RED)
+			.text("Давайте построим ферму на огненный рудноцветах!")
+			.placeNearTarget();
+        scene.world.showSection(util.select.position(3,1,4), Facing.DOWN)
+        scene.idle(80)
+        scene.addKeyframe()
+        scene.world.showSection(util.grid.at(3,1,3), Facing.DOWN)
+        scene.idle(20)
+        scene.world.showIndependentSection(util.grid.at(3,1,2), Facing.SOUTH)
+        scene.idle(20)
+        scene.world.showIndependentSection(util.select.fromTo(3,2,6,2,1,6), Facing.DOWN)
+        scene.idle(30)
+        scene.world.showSection(util.select.fromTo(6,1,6,4,2,4), Facing.SOUTH)
+        scene.idle(20)
+        scene
+            .text(80, "Поместите незерак в фильтр шины экспорта и в МЭ-интерфейс", [5, 3, 5])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(100)
+        scene
+            .text(60, "И.. плоскость формирования здесь", [3.7, 2, 4])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+        scene.idle(80)
+        scene.world.showIndependentSection(util.select.fromTo(1,1,6,0,1,5), Facing.DOWN)
+        scene.idle(30)
+        scene
+            .text(80, "Поместите кусочек золота, древние обломки и кварц в фильтр шины импорта", [0, 2, 4.7])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(100)
+        scene
+            .text(60, "ВАЖНО: разместите кварцевое волонко здесь", [1, 2, 4.7])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(80)
+        scene
+            .text(60, "Не забудьте разъединить кабели здесь", [0.5, 2, 5])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(80)
+        scene.world.showIndependentSection(util.select.fromTo(0,1,4,2,1,4), Facing.DOWN)
+        scene.idle(30)
+        scene
+        .text(110, "В МЭ-интерфейс поместите предметы из шины импорта: кусочек золота, древние обломки и кварц", [0, 2, 4])
+        .colored(PonderPalette.WHITE)
+        .placeNearTarget()
+        .attachKeyFrame()
+        scene.idle(130)
+        scene
+            .text(100, "Поместите настроенную ячейку хранения: кусочек золота, древние обломки и кварц в МЭ-сундук", [1.3, 2, 4])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(120)
+        scene
+            .text(60, "Теперь разместите плоскость уничтожения", [2.8, 2, 4])
+            .colored(PonderPalette.WHITE)
+            .placeNearTarget()
+            .attachKeyFrame()
+        scene.idle(80)
+        scene.world.setBlocks(util.grid.at(3,1,4), 'minecraft:netherrack', true)
+        scene.idle(30)
+        scene.world.setBlocks(util.grid.at(3,1,4), 'minecraft:nether_gold_ore', true)
+        scene.idle(20)
+        scene.world.destroyBlock(util.grid.at(3,1,4))
+        scene.idle(30)
+        scene.world.setBlocks(util.grid.at(3,1,4), 'minecraft:netherrack', true)
+        scene.idle(30)
+        scene.world.setBlocks(util.grid.at(3,1,4), 'minecraft:ancient_debris', true)
+        scene.idle(20)
+        scene.world.destroyBlock(util.grid.at(3,1,4))
+        scene.idle(60)
+    })
+})

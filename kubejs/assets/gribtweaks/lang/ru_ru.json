@@ -1,0 +1,37 @@
+{
+    "item.gribtweaks.wooden_bucket": "Деревянное ведро",
+    "item.gribtweaks.water_wooden_bucket": "Деревянное ведро воды",
+    "item.gribtweaks.hope_catalyst": "Катализатор надежды",
+    "item.gribtweaks.forest_catalyst": "Лесной катализатор",
+    "item.gribtweaks.damage_forest_catalyst": "Лесной катализатор",
+    "item.gribtweaks.primitive_brush": "Примитивная кисточка",
+    "item.gribtweaks.water_sand_bucket": "Песчаная кружка воды",
+    "item.gribtweaks.sandy_breeze_egg_spawn": "Яйцо призыва песчаного бриза",
+    "item.gribtweaks.sand_bad_egg_spawn": "Яйцо призыва злого песчаника",
+    "item.modestmining.brush": "Медная кисточка",
+    "item.gribtweaks.copper_brush": "Медная кисточка",
+    "item.gribtweaks.damage_hope_catalyst": "Катализатор Надежды",
+    "item.gribtweaks.sand_stone_pieces": "Песчаные кусочки",
+    "item.gribtweaks.sand_shears": "Песчаные ножницы",
+    "item.gribtweaks.andesite_piece": "Кусочек андезита",
+    "item.gribtweaks.stone_nugget": "Кусочек булыжника",
+
+    "itemGroup.gribtweaks": "Gribtweaks",
+
+    "entity.advancedgrib.sandelemental": "Песчаный Элементаль",
+    "entity.advancedgrib.leshy": "Леший",
+    "entity.gribtweaks.bad_sand": "Плохой песок",
+    "entity.gribtweaks.sandy_breeze": "Песчаный бриз",
+
+    "block.gribtweaks.suspicious_stone": "Подозрительный песок",
+    "block.gribtweaks.test": "Плита из песка",
+    "block.gribtweaks.sand2": "Песок",
+    "block.gribtweaks.compost": "Деревянный котёл",
+    "block.gribtweaks.compost_water": "Деревянный котёл с водой",
+    "block.gribtweaks.sand_layer": "Слой песка",
+    "block.gribtweaks.breake_bush": "Сломанный мёртвый куст",
+    "block.gribtweaks.arch_block": "Археологический генератор",
+
+    "gateways.sand_raid": "Песчаный рейд",
+    "gateways.forest_raid": "Песчаный рейд"
+}

@@ -1,0 +1,817 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "circle"
+	filename: "stage1"
+	group: "472A643616306AAC"
+	hide_quest_until_deps_visible: true
+	icon: {
+		Count: 1b
+		id: "minecraft:wooden_pickaxe"
+		tag: {
+			Damage: 0
+		}
+	}
+	id: "332765A53BD1F606"
+	order_index: 0
+	progression_mode: "linear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["744223264E0F1603"]
+			description: [
+				"Добудьте кремень, добывая гравий."
+				""
+				"Кликните ПКМ кремнем по камню, чтобы получить кремневый осколок."
+			]
+			hide: true
+			icon: "notreepunching:flint_shard"
+			id: "3E651EC02E370DDD"
+			rewards: [{
+				id: "2B136D47147A52D2"
+				item: "minecraft:flint"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [
+				{
+					id: "798CE192F9356BCE"
+					item: "minecraft:flint"
+					type: "item"
+				}
+				{
+					id: "3EA5C11DE95AC3F5"
+					item: "notreepunching:flint_shard"
+					type: "item"
+				}
+			]
+			title: "Кремень"
+			x: -4.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["744223264E0F1603"]
+			description: ["Добудьте палки, ломая листву."]
+			hide: true
+			id: "2CEA16F9A35BE53F"
+			rewards: [{
+				id: "6029654097117979"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "77797DFAC3DFCCAA"
+				item: "minecraft:stick"
+				type: "item"
+			}]
+			title: "Просто палка"
+			x: -4.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"2CEA16F9A35BE53F"
+				"3E651EC02E370DDD"
+			]
+			description: ["При ломании травы при помощи ножа выпадает растительное волокно, используемое для создания нитей."]
+			id: "7B908CABA361E481"
+			shape: "hexagon"
+			subtitle: "Пригодится в нарезке свинины"
+			tasks: [{
+				id: "453BCDE7FE04CDED"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Кремневый нож"
+			x: -2.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["7B908CABA361E481"]
+			description: ["Ломайте траву при помощи ножика."]
+			id: "6BD0436432D75B84"
+			rewards: [{
+				count: 3
+				id: "219E300AEC94E6FA"
+				item: "notreepunching:plant_fiber"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3F98EDEF74A4FDE5"
+				item: "notreepunching:plant_fiber"
+				type: "item"
+			}]
+			title: "Растительное волокно"
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["6BD0436432D75B84"]
+			description: ["Создайте кремневый топор и добудьте дерево."]
+			id: "417DCE7F7196C6FF"
+			rewards: [{
+				id: "3B8E39DA98FA2EC2"
+				type: "xp"
+				xp: 5
+			}]
+			shape: "hexagon"
+			subtitle: "Уже не обезьяна"
+			tasks: [{
+				id: "31920DE4B0D76CE0"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_axe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["417DCE7F7196C6FF"]
+			description: ["Создайте верстак. "]
+			id: "72CEB74B0928C7C3"
+			shape: "gear"
+			size: 1.2d
+			subtitle: "Начало каждой сборки"
+			tasks: [{
+				id: "6FCBD45174ACBACF"
+				item: "minecraft:crafting_table"
+				type: "item"
+			}]
+			title: "Верстак"
+			x: 3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72CEB74B0928C7C3"]
+			description: [
+				"Деревянные и каменные инструменты отключены."
+				""
+				"Используйте кремневые вместо них."
+			]
+			id: "3E89E8171FEBCAB2"
+			rewards: [{
+				id: "744275A484AF516E"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3C2E9F1ED2A2DDB0"
+				item: {
+					Count: 1b
+					id: "notreepunching:flint_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Первая кирка"
+			x: 5.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E89E8171FEBCAB2"]
+			description: ["Отправляйтесь в шахту и добудьте уголь."]
+			id: "28541DF5F861F45D"
+			rewards: [{
+				count: 4
+				id: "51A0D16FA2436731"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			tasks: [{
+				id: "0A2B8E6D7C6C9CC3"
+				item: "minecraft:coal"
+				type: "item"
+			}]
+			title: "Старый добрый уголь"
+			x: 7.5d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"28541DF5F861F45D"
+				"24DBBA23D05F1699"
+			]
+			description: ["Создайте костер."]
+			id: "73995DDB352A2786"
+			tasks: [{
+				id: "36B490F0F4AA5B6D"
+				item: "minecraft:campfire"
+				type: "item"
+			}]
+			title: "Первый огонь"
+			x: 9.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["73995DDB352A2786"]
+			description: ["Чтобы создать камень необходимо переплавить булыжник в костре."]
+			id: "77A2452ACD969D50"
+			rewards: [{
+				id: "0A3E33CAB0ECD6B0"
+				type: "xp"
+				xp: 5
+			}]
+			subtitle: "Камень я не дам"
+			tasks: [{
+				id: "35A4E22DE29390E4"
+				item: "minecraft:furnace"
+				type: "item"
+			}]
+			title: "Печь"
+			x: 9.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["3E89E8171FEBCAB2"]
+			description: ["Отправляйтесь в шахту и добудьте железо."]
+			id: "3EE32FBF22B7DBFA"
+			shape: "hexagon"
+			tasks: [{
+				id: "499CE15F77317FDA"
+				item: "minecraft:raw_iron"
+				type: "item"
+			}]
+			title: "Нужно больше железа"
+			x: 7.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"77A2452ACD969D50"
+				"3EE32FBF22B7DBFA"
+			]
+			description: ["Выплавьте слиток железа в печи."]
+			id: "211AE1FCA3393F0E"
+			rewards: [
+				{
+					count: 4
+					id: "6174D144E720B362"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3899382D92D79412"
+					item: "simplehats:hatbag_epic"
+					type: "item"
+				}
+			]
+			shape: "gear"
+			size: 1.2d
+			tasks: [{
+				id: "68E624CAAA6F047D"
+				item: "minecraft:iron_ingot"
+				type: "item"
+			}]
+			title: "Слиток железа"
+			x: 9.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["211AE1FCA3393F0E"]
+			description: ["Создайте железную кирку из полученых ранее слитков."]
+			id: "1EB6928031F52962"
+			tasks: [{
+				id: "03D69CE446E71997"
+				item: {
+					Count: 1b
+					id: "minecraft:iron_pickaxe"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Обновка"
+			x: 11.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["72CEB74B0928C7C3"]
+			description: [
+				"Глиняный инструмент использует для придачи формы глине."
+				""
+				"Кликните ПКМ по блоку глины глиняным инструментом, чтобы изменить форму."
+			]
+			id: "7F65431A411A36D5"
+			rewards: [{
+				count: 2
+				id: "50F748CEA88E55D6"
+				item: "minecraft:clay"
+				type: "item"
+			}]
+			tasks: [{
+				id: "06EEB12DFF6337AF"
+				item: {
+					Count: 1b
+					id: "notreepunching:clay_tool"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Гончарный инструмент"
+			x: 5.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["7F65431A411A36D5"]
+			description: ["Маленькая ваза является маленьким переносным хранилищем наподобии рюкзака."]
+			id: "21F9907FD66925B1"
+			subtitle: "Для начала пойдет"
+			tasks: [{
+				id: "31DAB590A91BE4BD"
+				item: "notreepunching:ceramic_small_vessel"
+				type: "item"
+			}]
+			title: "Первый \"рюкзак\""
+			x: 5.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7F65431A411A36D5"]
+			description: ["Большая ваза служит примитивным хранилищем предметов."]
+			id: "33F946785D2BF16C"
+			rewards: [{
+				id: "3E2D72C2BB0BF920"
+				item: "notreepunching:ceramic_large_vessel"
+				type: "item"
+			}]
+			tasks: [{
+				id: "1DB5FFB5A6970E8C"
+				item: "notreepunching:ceramic_large_vessel"
+				type: "item"
+			}]
+			title: "Примитивный сундук"
+			x: 7.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["58FA09982DA65E3C"]
+			dependency_requirement: "one_completed"
+			description: ["Флейта используется для ритуалов из Totemic."]
+			id: "2EFAB1FFEE0413F4"
+			tasks: [{
+				id: "004B51630DA9C295"
+				item: "totemic:flute"
+				type: "item"
+			}]
+			title: "Искусство флейты"
+			x: 13.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["211AE1FCA3393F0E"]
+			description: ["Используйте нож для вырезания тотемов для создания тотемов, придающих эффекты."]
+			id: "4483B26DA29EB896"
+			rewards: [{
+				id: "6FEF117E0481DA3A"
+				item: {
+					Count: 1b
+					id: "patchouli:guide_book"
+					tag: {
+						"patchouli:book": "totemic:totempedia"
+					}
+				}
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "3856FB3CE56EBB52"
+				item: {
+					Count: 1b
+					id: "totemic:totem_whittling_knife"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Нож для вырезания тотемов"
+			x: 11.5d
+			y: 3.5d
+		}
+		{
+			dependencies: [
+				"2EFAB1FFEE0413F4"
+				"4483B26DA29EB896"
+			]
+			description: [
+				"Активируйте ритуал танца бизона."
+				""
+				"Все коровы, находящиеся поблизости превратятся в бизонов."
+				""
+				"Дождитесь взросления бизонов и убейте их, получив шкуру и зуб бизонов. "
+			]
+			id: "5E66179B19904D5E"
+			rewards: [{
+				id: "030AF563296197F8"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [
+				{
+					id: "57AF1D2318540262"
+					item: "totemic:buffalo_tooth"
+					type: "item"
+				}
+				{
+					id: "026586C5D9B327A1"
+					item: "totemic:buffalo_hide"
+					type: "item"
+				}
+			]
+			title: "Перевоплощение коровы"
+			x: 13.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["72CEB74B0928C7C3"]
+			description: ["Убейте корову или лошадь для получения первой кожи."]
+			id: "57EF6D6B886AA24C"
+			rewards: [{
+				id: "0421912CD6365C80"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			tasks: [{
+				id: "6B7973A802BC4F9C"
+				item: "minecraft:leather"
+				type: "item"
+			}]
+			title: "Первые убийства"
+			x: 5.5d
+			y: -0.5d
+		}
+		{
+			dependencies: ["57EF6D6B886AA24C"]
+			description: ["Барабан используется для ритуалов из Totemic."]
+			id: "4C4FAFD2EDC48D20"
+			rewards: [{
+				id: "1D6DC326BC92045E"
+				item: "totemic:drum"
+				type: "item"
+			}]
+			tasks: [{
+				id: "36E070B957DA91FB"
+				item: "totemic:drum"
+				type: "item"
+			}]
+			title: "Барабан шамана"
+			x: 7.5d
+			y: -2.5d
+		}
+		{
+			dependencies: ["5E66179B19904D5E"]
+			description: ["Типи имеет схожий функционал с кроватью."]
+			id: "77B5B020F036C0E6"
+			subtitle: "Почувствуй себя индейцем"
+			tasks: [{
+				id: "448138D6EC2661D8"
+				item: "totemic:tipi"
+				type: "item"
+			}]
+			title: "Типи"
+			x: 15.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["5E66179B19904D5E"]
+			description: ["Найдите попугая и используйте его в ритуале Танца Орла."]
+			id: "4C7112651DC277D4"
+			rewards: [{
+				id: "4F2FF4F3BC448478"
+				type: "xp"
+				xp: 10
+			}]
+			shape: "hexagon"
+			tasks: [{
+				icon: "minecraft:feather"
+				id: "34DD129890C53D54"
+				observe_type: 5
+				timer: 0L
+				title: "Найти попугая"
+				to_observe: "minecraft:parrot"
+				type: "observation"
+			}]
+			title: "Попугай"
+			x: 15.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["4C7112651DC277D4"]
+			description: [
+				"Активировав ритуал Танец Орла, все попугаи поблизости превратятся в орлов."
+				""
+				"Убейте орла, чтобы получить его кость, а затем скрафтите свисток."
+			]
+			id: "0A2E19584BBEDCF3"
+			rewards: [{
+				id: "137F9F0A301AD5C1"
+				item: "totemic:eagle_bone"
+				type: "item"
+			}]
+			shape: "hexagon"
+			tasks: [{
+				id: "422B5C9D053D6E46"
+				item: "totemic:eagle_bone"
+				type: "item"
+			}]
+			title: "Птичку жалко"
+			x: 17.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["0A2E19584BBEDCF3"]
+			description: ["Благодаря свистку из орлиной кости вы можете призвать босса Байкока."]
+			id: "433AA6BC59B57D44"
+			shape: "hexagon"
+			tasks: [{
+				id: "26070C0E17930E1A"
+				item: "totemic:eagle_bone_whistle"
+				type: "item"
+			}]
+			title: "Финальный инструмент тотемиста"
+			x: 19.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["211AE1FCA3393F0E"]
+			description: ["Звенящее платье создаёт дополнительную музыку для ритуалов из Totemic."]
+			id: "4EB5E7BF233723F6"
+			shape: "diamond"
+			tasks: [{
+				id: "6B670480B05F6B78"
+				item: {
+					Count: 1b
+					id: "totemic:jingle_dress"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Платье любого тотемиста"
+			x: 8.5d
+			y: 4.5d
+		}
+		{
+			dependencies: ["433AA6BC59B57D44"]
+			description: [
+				"Активируйте ритуал Звон смерти."
+				""
+				"Начнется отчет, по окончании которого появится Байкок."
+				""
+				"&l&4Открывает следующую стадию!&r&r"
+			]
+			id: "3B1B6F0B1BF3A5D2"
+			rewards: [
+				{
+					count: 4
+					id: "2E59BE22A9B80911"
+					item: "minecraft:emerald"
+					type: "item"
+				}
+				{
+					count: 16
+					id: "414AA44058E2F2F2"
+					item: "minecraft:iron_ingot"
+					type: "item"
+				}
+				{
+					id: "3FE68F70C0395E85"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			shape: "square"
+			size: 1.5d
+			tasks: [{
+				entity: "totemic:baykok"
+				icon: {
+					Count: 1b
+					id: "totemic:baykok_bow"
+					tag: {
+						Damage: 0
+					}
+				}
+				id: "5AD092F1C969C007"
+				title: "Убить Байкока"
+				type: "kill"
+				value: 1L
+			}]
+			title: "Убить... Мёртвого?"
+			x: 22.0d
+			y: 3.5d
+		}
+		{
+			dependencies: ["2EFAB1FFEE0413F4"]
+			description: ["Музыкальная подвеска создаёт дополнительную музыку для ритуалов из Totemic."]
+			id: "4C726E51016719B2"
+			tasks: [{
+				id: "6EE0F47F9CAA01A5"
+				item: "totemic:wind_chime"
+				type: "item"
+			}]
+			title: "Мелодия приключений"
+			x: 15.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["5E66179B19904D5E"]
+			description: ["Трещотка используется для ритуалов из Totemic."]
+			id: "203470031D4BE97E"
+			tasks: [{
+				id: "18D81C97A7838BCA"
+				item: "totemic:rattle"
+				type: "item"
+			}]
+			title: "Трещотка"
+			x: 15.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["211AE1FCA3393F0E"]
+			description: ["Добывает деревья чуть быстрее своего аналога (топора). Главное, позволяет перерабывать бревно в 4 доски или 8 палок. "]
+			id: "5CDE6AB623038123"
+			shape: "diamond"
+			tasks: [{
+				id: "4BF4B31FCAC1C572"
+				item: {
+					Count: 1b
+					id: "notreepunching:iron_saw"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 8.5d
+			y: 2.5d
+		}
+		{
+			dependencies: ["3E89E8171FEBCAB2"]
+			description: ["Зола получается путём сжигания легковоспламеняющихся блоков. Чтобы поджечь блок, можно использовать зажигалку."]
+			id: "24DBBA23D05F1699"
+			tasks: [{
+				id: "719186B246A851BD"
+				item: "supplementaries:ash"
+				type: "item"
+			}]
+			x: 7.5d
+			y: 1.5d
+		}
+		{
+			dependencies: ["211AE1FCA3393F0E"]
+			description: ["Создайте ножницы для сбора листвы."]
+			id: "58FA09982DA65E3C"
+			tasks: [{
+				id: "2567FDF0141674F0"
+				item: {
+					Count: 1b
+					id: "minecraft:shears"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			x: 11.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["72CEB74B0928C7C3"]
+			description: ["Отличный вариант в качестве первой брони."]
+			id: "05EED6B5A54A6D57"
+			subtitle: "Первая броня!"
+			tasks: [
+				{
+					id: "165979B426CCEDBC"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "25319273F7C2E505"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "55D63B03E25062A7"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "03761619C035347D"
+					item: {
+						Count: 1b
+						id: "gribarmormod:dirt_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Земляной сет"
+			x: 3.5d
+			y: 3.5d
+		}
+		{
+			dependencies: ["211AE1FCA3393F0E"]
+			description: ["Используется для сбора сбежавших курятинов."]
+			id: "7F0EF22AFEEAC209"
+			tasks: [{
+				id: "7CCBBCBCD35E6770"
+				item: "chickens:catcher"
+				type: "item"
+			}]
+			title: "Устройство для ловли цыплят"
+			x: 9.5d
+			y: 5.5d
+		}
+		{
+			dependencies: ["7F0EF22AFEEAC209"]
+			description: ["Кремневая курица встречается в обычном мире."]
+			id: "606741D4648EDCBA"
+			tasks: [{
+				id: "79FC8FB1FE17CC86"
+				item: {
+					Count: 1b
+					id: "chickens:chicken_item"
+					tag: {
+						ChickenType: {
+							id: "chickens:flint_chicken"
+						}
+					}
+				}
+				type: "item"
+			}]
+			title: "Кремневый курятин"
+			x: 9.5d
+			y: 7.5d
+		}
+		{
+			dependencies: ["57EF6D6B886AA24C"]
+			description: ["Глайдер позволяет безопасно спускаться с большой высоты и преодолевать небольшие расстояния."]
+			id: "555F9224BD436B70"
+			subtitle: "Да Винчи одобряет!"
+			tasks: [{
+				id: "523A589B0DD689D5"
+				item: {
+					Count: 1b
+					id: "vc_gliders:paraglider_wood"
+					tag: {
+						Damage: 0
+					}
+				}
+				type: "item"
+			}]
+			title: "Параплан"
+			x: 5.5d
+			y: -2.5d
+		}
+	]
+	title: "&5Стадия: 1"
+}

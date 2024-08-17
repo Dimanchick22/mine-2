@@ -1,0 +1,29 @@
+[03:14:19] [INIT] KubeJS 1902.6.2-build.73; MC 1902 forge
+[03:14:19] [INIT] Loaded plugins:
+[03:14:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgePlugin
+[03:14:19] [INIT] - dev.latvian.mods.kubejs.forge.BuiltinKubeJSForgeClientPlugin
+[03:14:19] [INIT] - dev.latvian.mods.kubejs.integration.forge.gamestages.GameStagesIntegration
+[03:14:19] [INIT] - fr.iglee42.createcasing.compat.kubejs.KubeJSCompatPlugin
+[03:14:19] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbquests.kubejs.KubeJSIntegration
+[03:14:19] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbchunks.kubejs.FTBChunksKubeJSPlugin
+[03:14:19] [INIT] - dev.ftb.mods.ftbxmodcompat.ftbteams.kubejs.FTBTeamsKubeJSPlugin
+[03:14:19] [INIT] - dev.ftb.mods.ftbic.kubejs.FTBICKubeJSPlugin
+[03:14:19] [INIT] - dev.latvian.mods.kubejs.create.KubeJSCreatePlugin
+[03:14:19] [INIT] - com.almostreliable.morejs.Plugin
+[03:14:19] [INIT] - com.almostreliable.lootjs.kube.LootJSPlugin
+[03:14:19] [INIT] - com.probejs.ProbeJSPlugin
+[03:14:19] [INIT] - com.almostreliable.ponderjs.PonderJSPlugin
+[03:14:19] [INIT] - com.klikli_dev.modonomicon.integration.kubejs.ModonomiconKubeJSPlugin
+[03:14:19] [INIT] - com.prunoideae.KubeJSBotaniaPlugin
+[03:14:19] [INIT] - com.github.klikli_dev.occultism_kubejs.KubeJSOccultismPlugin
+[03:14:19] [INFO] Loaded script startup_scripts:game_timer_script/global.js in 0.04 s
+[03:14:19] [INFO] Loaded script startup_scripts:stage 3/item_registry.js in 0.011 s
+[03:14:19] [INFO] Loaded script startup_scripts:stage 6/item_registry.js in 0.011 s
+[03:14:19] [INFO] Loaded script startup_scripts:stage N/block_registry.js in 0.002 s
+[03:14:19] [INFO] Loaded script startup_scripts:stage N/item_registry.js in 0.005 s
+[03:14:19] [INFO] Loaded script startup_scripts:stage N/liquid_registry.js in 0.0 s
+[03:14:19] [INFO] stage N/potion.js#10: Loaded Java class 'dev.latvian.mods.kubejs.misc.PotionBuilder'
+[03:14:19] [INFO] Loaded script startup_scripts:stage N/potion.js in 0.005 s
+[03:14:19] [INFO] Loaded script startup_scripts:stage N/tier_registry.js in 0.0 s
+[03:14:19] [INFO] Loaded script startup_scripts:stage N/world_gen.js in 0.004 s
+[03:14:19] [INFO] Loaded 9/9 KubeJS startup scripts in 0.618 s
